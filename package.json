@@ -13,8 +13,15 @@
     "seed:run": "knex seed:run"
   },
   "dependencies": {
-    "knex": "0.21.6",
+    "@ckeditor/ckeditor5-build-classic": "^37.0.1",
+    "@ckeditor/ckeditor5-react": "^6.0.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@types/react": "^18.0.33",
+    "dom": "^0.0.3",
+    "knex": "^2.4.2",
     "next": "latest",
+    "openai": "^3.2.1",
     "pg": "8.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

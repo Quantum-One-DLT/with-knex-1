@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 
+
 export default function Home() {
   const [todos, setTodos] = useState()
   useEffect(() => {
@@ -70,6 +71,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        
       </main>
 
       <footer>
